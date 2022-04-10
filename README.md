@@ -29,3 +29,11 @@ Copy your yourfilename.svg svg line art file into the ./input folder, then run:
 ```
 python draw.py -i input/yourfilename.svg -r
 ```
+
+## How does it work?
+
+The input svg file is traced from start to end, and its coordinates are mapped to complex numbers (x->real, y->imaginary).
+
+The above is treated as a repeating signal and the fourier series coefficients are generated and the resulting coefficients are plotted using the Fourier Series.
+
+For more, read the full explainer: [The Fourier Series](https://syraxius.com/2021/11/27/the-fourier-series/)
