@@ -4,7 +4,7 @@ Computes the Fourier series coefficients for an input SVG line art and renders i
 https://user-images.githubusercontent.com/8336849/162612251-e2d923a2-07b4-4035-947c-afa94b5aadbc.mp4
 
 # Installation (for Windows):
-- 
+
 - Clone this repository (or download this repository and extract it somewhere).
 - Install Python 3.9 from https://www.python.org/.
 - Create a Python 3.9 virtual environment in this folder using `python3 -m venv venv`.
