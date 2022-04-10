@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/8336849/162612251-e2d923a2-07b4-4035-9
 
 ### Preview
 
-Copy your `yourfilename.svg` svg line art file into the `./input` folder, then run:
+Copy your svg line art file (e.g. `yourfilename.svg`) into the `./input` folder, then run:
 
 ```
 python draw.py -i input/yourfilename.svg
@@ -24,11 +24,13 @@ python draw.py -i input/yourfilename.svg
 
 ### Render to a file
 
-Copy your `yourfilename.svg` svg line art file into the `./input` folder, then run:
+Copy your svg line art file (e.g. `yourfilename.svg`) into the `./input` folder, then run:
 
 ```
 python draw.py -i input/yourfilename.svg --render --render-type mp4
 ```
+
+Your mp4/gif will be available in the `./output` folder (e.g. as `yourfilename.mp4`).
 
 ## How does it work?
 
