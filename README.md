@@ -27,7 +27,7 @@ python draw.py -i input/yourfilename.svg
 Copy your `yourfilename.svg` svg line art file into the `./input` folder, then run:
 
 ```
-python draw.py -i input/yourfilename.svg -r
+python draw.py -i input/yourfilename.svg --render --render-type mp4
 ```
 
 ## How does it work?
